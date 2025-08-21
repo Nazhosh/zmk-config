@@ -38,10 +38,10 @@
 
             display-name = "Lower";
             bindings = <
-&kp F1     &kp F2        &kp F3        &kp F4        &kp F5        &kp F6        &kp F7        &kp F8    &kp F9  &kp F10    &kp F11  &kp F12
-&trans     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N7    &kp N8  &kp N9     &kp N0   &kp MINUS
-&kp LSHFT  &trans        &trans        &bt BT_CLR    &bt BT_PRV    &bt BT_NXT    &kp LEFT      &kp DOWN  &kp UP  &kp RIGHT  &trans   &kp INS
-                                       &mo 3         &trans        &kp SPACE     &kp RET       &trans    &mo 3
+&kp F1        &kp F2           &kp F3        &kp F4        &kp F5  &kp F6          &kp F7   &kp F8  &kp F9  &kp F10  &kp F11    &kp F12
+&kp NUMBER_1  &kp NUMBER_2     &kp NUMBER_3  &kp NUMBER_4  &kp N5  &kp NUMBER_6    &kp N7   &kp N8  &kp N9  &kp N0   &kp MINUS  &kp EQUAL
+&kp LSHFT     &mt TILDE GRAVE  &trans        &trans        &trans  &trans          &trans   &trans  &trans  &trans   &trans     &kp INS
+                                             &mo 3         &trans  &kp SPACE       &kp RET  &trans  &mo 3
             >;
         };
 
@@ -54,7 +54,7 @@
 
             display-name = "Raise";
             bindings = <
-&kp GRAVE       &kp KP_SLASH     &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS    &trans             &kp HOME  &kp UP           &kp PAGE_UP    &trans  &kp LEFT_GUI
+&kp GRAVE       &kp KP_SLASH     &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS    &kp C_MUTE         &kp HOME  &kp UP           &kp PAGE_UP    &trans  &kp LEFT_GUI
 &trans          &kp KP_ASTERISK  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS     &kp C_VOLUME_UP    &kp LEFT  &kp DOWN         &kp RIGHT      &trans  &kp BACKSLASH
 &kp KP_NUMLOCK  &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT      &kp C_VOLUME_DOWN  &kp END   &kp PRINTSCREEN  &kp PAGE_DOWN  &trans  &kp RCTRL
                                                   &kp BACKSPACE    &trans           &kp SPACE       &kp RET            &trans    &kp DEL
