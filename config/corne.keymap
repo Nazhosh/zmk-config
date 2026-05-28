@@ -9,6 +9,10 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/rgb.h>
 
+&led_strip {
+    chain-length = <42>; // Change to 42 for both sides, or 27 for just underglow/first column
+};
+
 / {
     keymap {
         compatible = "zmk,keymap";
