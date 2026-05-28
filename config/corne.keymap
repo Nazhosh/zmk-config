@@ -10,7 +10,7 @@
 #include <dt-bindings/zmk/rgb.h>
 
 &led_strip {
-    chain-length = <42>; // Change to 42 for both sides, or 27 for just underglow/first column
+    chain-length = <54>; // Change to 54 for both sides, or 27 for just underglow/first column
 };
 
 / {
